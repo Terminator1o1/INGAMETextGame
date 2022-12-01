@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 python:
     import math
 # Declare characters used by this game. The color argument colorizes the
@@ -127,7 +127,7 @@ label dialogue2:
 
     "And before you know it, you're running."
 
-    "Suddenly, Gabe's two meters away, and he's losing."
+    "Suddenly, Gabe's two meters away, and he's fighting a losing battle."
 
     "The Sleeper is muscular and a few centimeters taller than you."
 
@@ -339,7 +339,7 @@ label dialogue3:
 
 label dialogue4:
 
-    "Bro chill i haven't gotten here yet."
+    "Bro chill i haven't gotten here yet. boolean boolean"
 
 
 
