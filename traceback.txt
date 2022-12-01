@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 34, in script
+    jump dialouge1
+ScriptError: could not find label 'dialouge1'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 34, in script
+    jump dialouge1
+  File "C:\Users\ariel\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\ariel\Downloads\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'dialouge1'.
+
+Windows-10-10.0.22000 AMD64
+Ren'Py 8.0.3.22090809
+InGame 1.0
+Tue Nov 29 12:29:48 2022
