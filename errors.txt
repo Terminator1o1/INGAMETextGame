@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 340: expected ':' not found.
-    label dialogue4
-                   ^
+File "game/options.rpy", line 65: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
+    define config.main_menu_music = "birds.mp3"
+    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Nov 29 13:12:50 2022
+Mon Dec  5 13:34:55 2022
